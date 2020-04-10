@@ -29,11 +29,6 @@ li{
     color: rgba(0, 0, 0, 0.897);
 }
 
-
-section{
-    padding-top: 20px;
-}
-
 h4,strong{
     text-shadow:2px 1px #0000002d;
     color: rgba(0, 110, 255, 0.726);
@@ -59,9 +54,7 @@ hr{
     border-top: 1px solid rgba(255, 255, 255, 0.726);
     box-shadow: 2px 5px #00000010;
 }
-strong{
 
-}
 /*
 BANDEAU
 */
@@ -192,7 +185,7 @@ A Propos
 
 #section-apropos article{
     width: 100%;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 /*
@@ -349,7 +342,7 @@ REALISATION
 
 .modal-body h3{
     opacity: 0;
-    animation: reaval 2s infinite;
+    animation: reveal 2s infinite;
     text-shadow:2px 1px #0000002d;
     color: rgba(0, 110, 255, 0.726);
 }
@@ -423,7 +416,7 @@ REMOTE
 
 .preferenceActive{
     opacity: 0;
-    animation-name: reaval;
+    animation-name: reveal;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     position: fixed;
@@ -630,7 +623,7 @@ MEDIA QUERIE
 /*
 ANIMATION
 */
-@keyframes reaval{
+@keyframes reveal{
     100%{
         opacity: 1;
     }
@@ -643,12 +636,12 @@ ANIMATION
 }
 
 /*
-Reaval
+reveal
 */
 
 .reveal{
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateY(30px);
 }
 
 .reveal-visible{
