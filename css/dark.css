@@ -172,6 +172,7 @@ HEADER
     width: 100%;
     position: absolute;
     top: 45%;
+    left: 0;
 }
 
 #block-titrre div{
