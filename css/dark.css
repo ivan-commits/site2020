@@ -640,6 +640,19 @@ MEDIA QUERIE
 
 }
 
+@media screen and (min-width: 700px) {
+    .reveal-3{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    .reveal-visible-3{
+        transition: 1s cubic-bezier(.5,0,0,1);
+        opacity: 1;
+    }
+
+}
+
 /*
 ANIMATION
 */

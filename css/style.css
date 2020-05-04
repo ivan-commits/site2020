@@ -601,6 +601,7 @@ MEDIA QUERIE
 
 
 
+
 }
 
 
@@ -611,15 +612,25 @@ MEDIA QUERIE
         width: 350px;
     }
 
-
-
-
 }
 
 @media screen and (max-width: 1049px) {
     
     #bd-techno .compatible{
         display: none;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+    .reveal-3{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    .reveal-visible-3{
+        transition: 1s cubic-bezier(.5,0,0,1);
+        opacity: 1;
     }
 
 }
@@ -657,7 +668,7 @@ reveal
 
 .reveal-1{
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-10px);
 }
 
 .reveal-visible-1{
@@ -668,10 +679,12 @@ reveal
 
 .reveal-2{
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(10px);
 }
 
 .reveal-visible-2{
     transition: 1s cubic-bezier(.5,0,0,1);
     opacity: 1;
 }
+
+
