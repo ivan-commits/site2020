@@ -313,12 +313,6 @@ Competence
 REALISATION
 */
 
-.real{
-    text-align: center;
-    padding: 0;
-    margin: 20px auto;
-}
- 
 .real img{
     border-radius: 5px;
     height: 300px;
@@ -331,23 +325,26 @@ REALISATION
 }
 
 
-.modal-ul li{
-    margin-left: 5px;
-    list-style: disc ;
+
+@media screen and (min-width: 995px) {
+    #section-realisation h2{
+        margin-bottom: 50px
+    }
+    .text-real{
+        transform: translateY(30px)
+    }
+
 }
 
-.modal-body img{
-    transform: translateX(130px);
-    width: 200px;
-    height: 250px;
+@media screen and (max-width: 995px) {
+    
+    .text-real{
+        text-align: center
+    }
+
 }
 
-.modal-body h3{
-    opacity: 0;
-    animation: reveal 2s infinite;
-    text-shadow:2px 1px #0000002d;
-    color: rgba(0, 110, 255, 0.726);
-}
+
 /*
 CONTACT
 */
