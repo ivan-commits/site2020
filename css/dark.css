@@ -600,9 +600,11 @@ MEDIA QUERIE
     }
 
     .block-right, .block-left {
-        text-align: initial;
         margin: 10px 0;
-        text-align: center
+        text-align: center;
+        border: 1px solid rgba(0, 110, 255, 0.726);
+        padding: 5px 0;
+        box-shadow:  0px 1px 2px rgba(255, 255, 255, 0.288);
     }
 
     #jq{
@@ -640,18 +642,6 @@ MEDIA QUERIE
 
 }
 
-@media screen and (min-width: 700px) {
-    .reveal-2{
-        opacity: 0;
-        transform: translateY(30px);
-    }
-
-    .reveal-visible-2{
-        transition: 1s cubic-bezier(.5,0,0,1);
-        opacity: 1;
-    }
-
-}
 
 /*
 ANIMATION
