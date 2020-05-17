@@ -269,14 +269,12 @@ Competence
   widows: 65px;
   height:65px;
   transform: translateY(-10px);
-  opacity: 0.8;
 }
 
 #jq{
     transform: translateY(-30px) translateX(-15px);
     width: 80px;
     height:90px;
-    opacity: 0.8;
 }
 
 .techno i {
@@ -324,7 +322,11 @@ REALISATION
     color: rgba(0, 110, 255, 0.726);
 }
 
-
+.titreul{
+    transform: translateX(-10px);
+    margin-bottom: 10px;
+    list-style: none
+}
 
 @media screen and (min-width: 995px) {
     #section-realisation h2{
@@ -340,6 +342,10 @@ REALISATION
     
     .text-real{
         text-align: center
+    }
+    .titreul{
+        text-align: center;
+        margin-bottom: 10px;
     }
 
 }
